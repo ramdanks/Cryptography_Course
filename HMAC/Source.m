@@ -38,4 +38,4 @@ for i=1:length(signed_msg)
 end
 signed_msg = char(signed_msg);
 % Tes Integritas dan Keaslian data menggunakan HMAC
-ValidationTest(signed_msg, sharedKey, 'SHA-512');
+ValidationTest(signed_msg, sharedSecureKey, 'SHA-512');
